@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
 @layer base {
     body {
         @apply font-[Raleway];
@@ -13,4 +13,23 @@
         @apply cursor-pointer
         
     }
+}
+
+li{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: 10px;
+    height: 200px;
+}
+.content-div:hover{
+    background-image: linear-gradient(
+        to right ,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)
+    )!important;
 }
