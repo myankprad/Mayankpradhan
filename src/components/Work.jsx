@@ -51,8 +51,8 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${WorkImg})`}} className='content-div shadow-lg shadow-[#040c16] group container rounded-md items-center flex justify-center mx-auto '>
-                {/* hover  */}
+            {/* <div style={{backgroundImage: `url(${WorkImg})`}} className='content-div shadow-lg shadow-[#040c16] group container rounded-md items-center flex justify-center mx-auto '>
+               
                 <div className='opacity-0 group-hover:opacity-100 '>
                     <span className='text-2xl font-bold text-white tracking-widest'>
                      React Js Application 
@@ -66,7 +66,7 @@ const Work = () => {
                        </a>
                     </div>
                 </div>
-            </div>
+            </div>  */}
             <div style={{backgroundImage: `url(${visual})`}} className='content-div shadow-lg shadow-[#040c16] group container rounded-md items-center flex justify-center mx-auto '>
                 {/* hover  */}
                 <div className='opacity-0 group-hover:opacity-100 '>
@@ -83,8 +83,8 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${WorkImg})`}} className='content-div shadow-lg shadow-[#040c16] group container rounded-md items-center flex justify-center mx-auto '>
-                {/* hover  */}
+          {/*  <div style={{backgroundImage: `url(${WorkImg})`}} className='content-div shadow-lg shadow-[#040c16] group container rounded-md items-center flex justify-center mx-auto '>
+               
                 <div className='opacity-0 group-hover:opacity-100 '>
                     <span className='text-2xl font-bold text-white tracking-widest'>
                      React Js Application 
@@ -98,8 +98,8 @@ const Work = () => {
                        </a>
                     </div>
                 </div>
-            </div>
-            <div style={{backgroundImage: `url(${code})`}} className='content-div shadow-lg shadow-[#040c16] group container rounded-md items-center flex justify-center mx-auto '>
+            </div> */}
+           <div style={{backgroundImage: `url(${code})`}} className='content-div shadow-lg shadow-[#040c16] group container rounded-md items-center flex justify-center mx-auto '>
                 {/* hover  */}
                 <div className='opacity-0 group-hover:opacity-100 '>
                     <span className='text-2xl font-bold text-white tracking-widest'>
@@ -114,7 +114,7 @@ const Work = () => {
                        </a>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
      </div>
     </div>
